@@ -22,7 +22,7 @@ const classes = [
   category: "MERL Foundations",
   facilitator: "Mr. Moses Mwangi",
   role: "Facilitator",
-  bio: "Mr. Moses MWangi is an accomplished Monitoring, Evaluation, Accountability and Learning (MEAL) specialist with over 23 years of professional experience and more than 40 evaluation and research assignments across Eastern, Central and Southern Africa. He has extensive expertise in programme design, Theory of Change development, monitoring systems, results frameworks, and programme evaluations.",
+  bio: "Mr. Moses Mwangi is an accomplished Monitoring, Evaluation, Accountability and Learning (MEAL) specialist with over 23 years of professional experience and more than 40 evaluation and research assignments across Eastern, Central and Southern Africa. He has extensive expertise in programme design, Theory of Change development, monitoring systems, results frameworks, and programme evaluations.",
   duration: "1hr 35min",
   date: "2026-10-22",
   thumbnail: "assets/class-thumbnails/yeek-001.jpg",
