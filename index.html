@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101E38">
+  <meta name="description" content="Recorded learning sessions from Young and Emerging Evaluators of Kenya.">
+  <title>YEEK | Class Library</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+  <a class="brand" href="#" aria-label="YEEK class library home">
+    <img
+      src="assets/yeek-logo.png"
+      alt="Young and Emerging Evaluators of Kenya logo"
+      class="brand-logo"
+    >
+  </a>
+    <span class="header-note"><span class="live-dot"></span> LEARNING LIBRARY</span>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">LEARN · QUESTION · MAKE AN IMPACT</p>
+        <h1>Ideas grow when<br><em>knowledge is shared.</em></h1>
+        <p class="hero-description">Explore recorded learning sessions from the Young and Emerging Evaluators of Kenya.</p>
+        <a class="hero-link" href="#library">Explore recorded classes <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="art-ring ring-one"></div>
+        <div class="art-ring ring-two"></div>
+        <div class="art-stamp">EVIDENCE<br>FOR CHANGE</div>
+        <div class="art-caption">KENYA <span>·</span> MERL <span>·</span> YOUTH</div>
+        <div class="art-lines"></div>
+      </div>
+      <div class="hero-bottom"><span>01 / KNOWLEDGE</span><span>YOUNG VOICES. STRONGER EVIDENCE.</span></div>
+    </section>
+
+    <section class="library-section" id="library">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">THE YEEK VIDEO LIBRARY</p>
+          <h2>Recorded classes<span class="heading-period">.</span></h2>
+          <p class="section-subtitle">Revisit a session, discover a new perspective, keep learning.</p>
+        </div>
+        <div class="class-count" id="class-count">— SESSIONS</div>
+      </div>
+
+      <div class="toolbar">
+        <label class="search-box">
+          <span class="search-icon" aria-hidden="true">⌕</span>
+          <input id="search-input" type="search" placeholder="Search classes or facilitators..." autocomplete="off">
+          <kbd>⌘ / CTRL + K</kbd>
+        </label>
+        <div class="filter-note"><span class="filter-dot"></span> ALL RECORDED SESSIONS</div>
+      </div>
+
+      <div class="class-grid" id="class-grid" aria-live="polite"></div>
+      <div class="empty-state" id="empty-state" hidden>
+        <span class="empty-symbol">⌕</span>
+        <h3 id="empty-title">No classes published yet</h3>
+        <p id="empty-message">Recorded YEEK sessions will appear here as they are added. Check back soon.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-brand"><strong>YEEK</strong></div>
+    <p>Young and Emerging Evaluators of Kenya</p>
+    <span class="footer-tag">LEARNING IS A CONTINUOUS JOURNEY.</span>
+  </footer>
+
+  <div class="modal" id="video-modal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <section class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <div class="modal-topbar">
+        <div>
+          <p class="eyebrow">NOW PLAYING · YEEK CLASS LIBRARY</p>
+          <h2 id="modal-title">Class title</h2>
+        </div>
+        <button class="close-button" id="close-modal" aria-label="Close video player">×</button>
+      </div>
+      <div class="video-frame" id="video-frame"></div>
+      <div class="modal-meta">
+        <div><span class="meta-label">FACILITATOR</span><strong id="modal-facilitator"></strong><p id="modal-bio"></p></div>
+        <span class="duration-pill" id="modal-duration"></span>
+      </div>
+    </section>
+  </div>
+
+  <script src="classes.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
