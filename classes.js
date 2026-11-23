@@ -34,10 +34,10 @@ const classes = [
   "category": "Results Frameworks & Logframes",
   "facilitator": "Byrone Wayodi",
   "role": "Facilitator",
-  "bio": "",
-  "duration": "",
+  "bio": "Byrone Wayodi is a Monitoring, Evaluation and Learning leader with over 15 years of experience in development programmes. He currently leads programme effectiveness at Ripple Effect across six African countries. His expertise includes project design, Theory of Change, logical frameworks, indicator development and programme evaluation.",
+  "duration": "1hr 45min",
   "date": "2026-11-19",
-  "thumbnail": "",
+  "thumbnail": "assets/class-thumbnails/yeek-002.png",
   "driveId": "1yZQPddQ60EXRDqgZoCBNottSza8RIFlc"
 }
 ];
