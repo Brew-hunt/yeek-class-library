@@ -27,5 +27,17 @@ const classes = [
   date: "2026-10-22",
   thumbnail: "assets/class-thumbnails/yeek-001.jpg",
   driveId: "1h5l_UAT70NkUCRjDFRrAZ7Rfy5i7wiHa"
+},
+{
+  "id": "yeek-002",
+  "title": "Results Frameworks & Logframes",
+  "category": "Results Frameworks & Logframes",
+  "facilitator": "Byrone Wayodi",
+  "role": "Facilitator",
+  "bio": "",
+  "duration": "",
+  "date": "2026-11-19",
+  "thumbnail": "",
+  "driveId": "1yZQPddQ60EXRDqgZoCBNottSza8RIFlc"
 }
 ];
